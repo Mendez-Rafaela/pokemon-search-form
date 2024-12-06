@@ -1,7 +1,7 @@
 body {
     display: flex;
     width: 100%;
-    flex-wrap: ;
+    flex-direction: column;
     background-color: red;
 }
 
@@ -9,28 +9,29 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 35%;
+    width: 100%;
+
 }
 
 header img {
     display: flex;
-    width: 40%;
+    width: 15%;
 
 }
-
 
 
 main {
     display: flex;
+    
     height: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap: 35px;
+    justify-content: center;
+    flex-wrap:wrap ;
+    gap: 50px;
 }
 
 .logo-pokemon {
     display: flex;
-    width: 20%;
+    width: 100%;
     mix-blend-mode: multiply;
     
 
@@ -38,6 +39,7 @@ main {
 
 form {
     display: flex;
+    width: 500px;
     flex-direction: column;
     align-items: center;
     gap: 20px;
@@ -56,13 +58,11 @@ input {
     display: flex;
     background-color: transparent;
     font-size: 15px;
-   
-    border: 1px solid grey;
+    border: 1px solid white;
     border-radius: 10px;
     padding: 5px 20px;
-
-
 }
+
 
 button {
   background: radial-gradient(circle, #ffeb3b, #ff9800);
@@ -79,9 +79,9 @@ button:hover{
 }
 
 .card {
-    width: 200px;
+    width: 320px;
     display: flex;
     border: 1px solid black;
     flex-direction: column;
-    
+        
 }
